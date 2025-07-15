@@ -1,0 +1,19 @@
+25-06-27 03:13:03.277 - INFO: Create the log file in directory experiments\test_nafnet_double_encoder_splitcaCond_splitcaUnet_250627_031246.
+
+25-06-27 03:13:03.301 - INFO: Dataset [Sen2_MTC_New_Multi() form data.dataset] is created.
+25-06-27 03:13:03.308 - INFO: Dataset [Sen2_MTC_New_Multi() form data.dataset] is created.
+25-06-27 03:13:03.308 - INFO: Dataset for test have 687 samples.
+25-06-27 03:13:03.388 - INFO: Network [Network() form models.network_x0_dpm_solver(2)] is created.
+25-06-27 03:13:03.388 - WARNING: Config is a str, converts to a dict {'name': 'mae'}
+25-06-27 03:13:04.175 - INFO: Metric [mae() form models.metric] is created.
+25-06-27 03:13:04.175 - WARNING: Config is a str, converts to a dict {'name': 'mse_loss'}
+25-06-27 03:13:04.175 - INFO: Loss [mse_loss() form models.loss] is created.
+25-06-27 03:13:04.419 - INFO: Beign loading pretrained model [Network] ...
+25-06-27 03:13:04.419 - WARNING: Pretrained model in [E:/administrator/DiffCR-main/experiments/train_nafnet_double_encoder_splitcaCond_splitcaUnet_250622_005919/checkpoint/2000.state_Network.pth] is not existed, Skip it
+25-06-27 03:13:04.419 - INFO: Beign loading pretrained model [Network_ema] ...
+25-06-27 03:13:04.419 - WARNING: Pretrained model in [E:/administrator/DiffCR-main/experiments/train_nafnet_double_encoder_splitcaCond_splitcaUnet_250622_005919/checkpoint/2000.state_Network_ema.pth] is not existed, Skip it
+25-06-27 03:13:04.422 - INFO: Model [Palette() form models.model] is created.
+25-06-27 03:13:04.422 - INFO: Begin model test.
+25-06-27 03:18:35.108 - INFO: test/mae: 0.7805010676383972	
+25-06-27 03:18:35.108 - INFO: epoch: 0	
+25-06-27 03:18:35.108 - INFO: iters: 687	
